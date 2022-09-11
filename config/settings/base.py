@@ -87,7 +87,6 @@ THIRD_PARTY_APPS = [
 LOCAL_APPS = [
     "self_service_portal.users",
     # Your stuff: custom apps go here
-    "self_service_portal.blog",
 ]
 # https://docs.djangoproject.com/en/dev/ref/settings/#installed-apps
 INSTALLED_APPS = DJANGO_APPS + THIRD_PARTY_APPS + LOCAL_APPS
